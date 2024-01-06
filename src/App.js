@@ -3,8 +3,9 @@ import EmployeeComponent from './component/EmployeeComponent';
 
 function App() {
   return (
-    <div className="App">
-      <EmployeeComponent></EmployeeComponent>
+    <div className="container">
+      <EmployeeComponent>
+      </EmployeeComponent>
     </div>
   );
 }
